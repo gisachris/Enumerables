@@ -8,4 +8,9 @@ module MyEnumerable
     each { return true if block.call(e) }
     false
   end
+
+  def filter(&block)
+    result = []
+    each {|e| result << e if block.call(e)}
+  end
 end
