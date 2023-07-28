@@ -15,3 +15,7 @@ list.any? { |e| e == 2 }
 # => true
 list.any? { |e| e == 5 }
 # => false
+
+# Test #filter
+list.filter {|e| e.even?}
+# => [2, 4]
