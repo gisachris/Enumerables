@@ -69,30 +69,32 @@ In order to run this project you need the following:
 
 - **Internet connection**
 
+- **Make sure you have Ruby installed on your system**
+
 ### Setup
 
 Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/toyman640/morse-code.git
+  git clone https://github.com/gisachris/Enumerables.git
 ```
 
 ### Install
 
-Coming Soon...
-
 ```sh
-  cd my-project
+  cd Enumerables
   bundle install
 ```
 
 ### Usage
 
-Coming Soon...
-
 ```sh
-  rails server
+  Run IRB
+  Require the necessary files:
+  require_relative 'enumerable'
+  require_relative 'list'
+  require_relative 'main'
 ```
 
 ### Run tests
