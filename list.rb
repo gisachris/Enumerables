@@ -1,13 +1,13 @@
-require_relative 'Enumerable'
+require_relative 'enumerable'
 
-class MyList 
-    include MyEnumerable
+class MyList
+  include MyEnumerable
 
- def initialize(*elems)
+  def initialize(*elems)
     @list = elems
-    end
+  end
 
-    def each(&block)
-        @list.each(&block)        
-    end
+  def each(&block)
+    @list.each(&block)
+  end
 end
