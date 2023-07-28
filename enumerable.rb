@@ -5,7 +5,7 @@ module MyEnumerable
   end
 
   def any?(&block)
-    each { return true if block.call(e) }
+    each { |e| return true if block.call(e) }
     false
   end
 
